@@ -119,52 +119,60 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <form>
-                                <div class="card shadow mb-3">
-                                    <div class="card-header py-3">
-                                        <p class="text-primary m-0 font-weight-bold">User Settings</p>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="form-row">
-                                            <div class="col">
-                                                <div class="form-group"><label for="displayName"><strong>Display Name</strong><br></label><input class="form-control" type="text" placeholder="J. Doe" name="displayName"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-group"><label for="email"><strong>Email Address</strong></label><input class="form-control" type="email" placeholder="user@example.com" name="email"></div>
-                                            </div>
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="col">
-                                                <div class="form-group"><label for="first_name"><strong>First Name</strong></label><input class="form-control" type="text" placeholder="John" name="first_name"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-group"><label for="last_name"><strong>Last Name</strong></label><input class="form-control" type="text" placeholder="Doe" name="last_name"></div>
-                                            </div>
-                                        </div>
+                            <div class="card shadow mb-3">
+                                <div class="card-header py-3">
+                                    <p class="text-primary m-0 font-weight-bold">Application Details</p>
+                                </div>
+                                <div class="card-body"><dl class="row">
+  <dt class="col-4">Degree</dt>
+  <dd class="col-8">BSc Honours Computer Science</dd>
+  <dt class="col-4">Date</dt>
+  <dd class="col-8">30 August 2019 18H00 PM</dd> 
+  <dt class="col-4">Status</dt>
+  <dd class="col-8 text-success">Pending</dd>
+</dl></div>
+                            </div>
+                            <div class="card shadow" style="margin-bottom: 16px;">
+                                <div class="card-header py-3">
+                                    <p class="text-primary m-0 font-weight-bold">Status History</p>
+                                </div>
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Date</th>
+                                                    <th>Status</th>
+                                                    <th>User</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>30 August 2019</td>
+                                                    <td>APPLIED</td>
+                                                    <td>ntmgug001@myuct.ac.za</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>30 August 2019</td>
+                                                    <td>ACCEPTED</td>
+                                                    <td>sonia@uct.ac.za</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
-                                <div class="card shadow" style="margin-bottom: 16px;">
-                                    <div class="card-header py-3">
-                                        <p class="text-primary m-0 font-weight-bold">Contact Settings</p>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="form-group"><label for="address"><strong>Address</strong></label><input class="form-control" type="text" placeholder="Sunset Blvd, 38" name="address"></div>
-                                        <div class="form-row">
-                                            <div class="col">
-                                                <div class="form-group"><label for="city"><strong>City</strong></label><input class="form-control" type="text" placeholder="Cape Town" name="city"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-group"><label for="country"><strong>Country</strong></label><input class="form-control" type="text" placeholder="SOUTH AFRICA" name="country"></div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            </div>
+                            <div class="card shadow" style="margin-bottom: 16px;">
+                                <div class="card-header py-3">
+                                    <p class="text-primary m-0 font-weight-bold">Supporting Documents</p>
                                 </div>
-                                <div class="card shadow" style="margin-bottom: 16px;">
-                                    <div class="card-body">
-                                        <div class="form-group"><button class="btn btn-primary btn-sm" type="submit">Save&nbsp;Settings</button></div>
-                                    </div>
+                                <div class="card-body">
+                                    <form>
+                                        <div class="form-group"><input type="file"></div>
+                                        <div class="form-group"><button class="btn btn-primary" type="submit">Upload</button></div>
+                                    </form>
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
